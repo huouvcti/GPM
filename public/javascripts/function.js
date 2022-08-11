@@ -75,7 +75,6 @@ const F_Wgid = (OF, FCR, TF) => {
 
 // F9 Wgid 추정 증체량 + 개체 중량
 // d 일 이후 중량
-
 // 첫째날 null
 // 둘째날 W(개체중량) + Wgid(추정 증체량)
 // 이후 Wgid(전날 추정 개체중량) + Wgid(추정 증체량)
