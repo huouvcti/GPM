@@ -83,7 +83,6 @@ const F_Wid = (W, Wgid) =>{
 }
 
 
-
 // 총 증중량
 const F_TWg = (Wg, TF) => {
     return Wg*TF/1000
