@@ -10,12 +10,14 @@ const login = async (req, res) => {
     }
 }
 
+
+
+
 const loginProcess = async (req, res) => {
     const parameters = {
         id: req.body.id,
         pw: req.body.pw
     }
-
     const db_data = await userDAO.userCheck(parameters);
     if(db_data.length != 0){
         req.session.user_key = db_data[0].user_key;
